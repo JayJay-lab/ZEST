@@ -11,7 +11,7 @@ package com.mycompany.lox;
 
 
 
-class AstPrinter implements Expr.Visitor<String> {
+class Ast implements Expr.Visitor<String> {
 String print(Expr expr) {
 return expr.accept(this);
 }
@@ -43,7 +43,7 @@ builder.append(expr.accept(this));
 }
 builder.append(")");
 return builder.toString();
-}c
+}
 
 public static void main(String[] args) {
 Expr expression = new Expr.Binary(
@@ -54,9 +54,8 @@ new Token(TokenType.STAR, "*", null, 1),
 new Expr.Grouping(
 new Expr.Literal(45.67)));
 
-System.out.println(new AstPrinter().print(expression));
+System.out.println(new Ast().print(expression));
 }
 
 
-}
 }
