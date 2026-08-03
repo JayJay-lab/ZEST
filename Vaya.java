@@ -14,7 +14,7 @@ import java.util.List;
 
 
 // I'm writing a scanner which takes a stream of characters and return line of tokens 
-public class Lox{
+public class Vaya{
     static boolean hadError = false;
     
     
