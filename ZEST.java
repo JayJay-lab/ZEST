@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.lox;
+package com.mycompany.zest;
 
 import java.io.BufferedReader; //Allows the user to read data from input related to IOException ,BufferredReader and InputStreamReader 
 import java.io.IOException;  //input and output  exception 
@@ -14,7 +14,7 @@ import java.util.List;
 
 
 // I'm writing a scanner which takes a stream of characters and return line of tokens 
-public class Vaya{
+public class ZEST{
     static boolean hadError = false;
     
     
