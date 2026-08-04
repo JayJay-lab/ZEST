@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 
-import static com.mycompany.lox.TokenType.*;
+import static com.mycompany.zest.TokenType.*;
 /**
  *
  * @author Admin
